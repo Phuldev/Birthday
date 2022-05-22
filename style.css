@@ -21,6 +21,10 @@ body {
 
 h1 {
   font-weight: normal;
+
+}
+#head{
+    padding-bottom:10px;
 }
 li {
   display: inline-block;
@@ -28,6 +32,9 @@ li {
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+  border:none;
+  border-radius:50%;
+  box-shadow: 3px 3px deeppink;
 }
 li span {
   display: block;
