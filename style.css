@@ -9,7 +9,7 @@ canvas {
   left: 0;
 }
 body {
-  background: #ffffff;
+  background:lightblue;
   overflow: hidden;
 }
 .container {
@@ -21,20 +21,24 @@ body {
 
 h1 {
   font-weight: normal;
+  padding-top:20px;
+  letter-spacing: 20;
 
 }
 #head{
     padding-bottom:10px;
 }
 li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-  border:none;
-  border-radius:50%;
-  box-shadow: 3px 3px deeppink;
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    color: #ffffff;
+    box-shadow: 5px 0px 20px 0px;
+    border-radius: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 20px;
 }
 li span {
   display: block;

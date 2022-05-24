@@ -1,12 +1,14 @@
 const count = document.getElementById('count');
 const head = document.getElementById('head');
-const giftbox = document.getElementById('merrywrap');
+const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'July,8, 2022',
-  name: 'Garima Pandeya'
+  // birthdate: 'July,8, 2022',
+  // birthdate: 'July,7, 2022',
+  name: 'My Dear Garima'
 };
+
 
 function hideEverything() {
   head.style.display = 'none';
@@ -52,7 +54,6 @@ x = setInterval(function() {
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
-
       cx: w / 2,
       cy: h / 2,
 
@@ -117,6 +118,8 @@ x = setInterval(function() {
     this.alphaColor = 'hsla(hue,80%,50%,alp)'.replace('hue', hue);
 
     this.reset();
+
+    // window.alert('dev');,
   }
   Letter.prototype.reset = function() {
     this.phase = 'firework';
@@ -456,7 +459,7 @@ x = setInterval(function() {
     count.style.display = 'none';
     giftbox.style.display = 'initial';
     clearInterval(x);
-    let merrywrap = document.getElementById('merrywrap');
+    let merrywrap = document.getElementById('birtwrap');
     let box = merrywrap.getElementsByClassName('giftbox')[0];
     let step = 1;
     let stepMinutes = [2000, 2000, 1000, 1000];
@@ -491,11 +494,17 @@ x = setInterval(function() {
       setTimeout(anim, 1500);
     }
 
-    init();
+    var a=prompt("Enter UserName");
+    var b=prompt("Enter password");
+    if(a== "garima" && b=="dev")
+    {
+        window.location.href="birth.html";
+    }
+    else
+    {
+      alert("invalid details");
+      init();
+    }
   }
 
-  // if (distance < 0) {
-  //     clearInterval(x);
-  //     console.log("happy birthday");
-  // }
 }, second);
