@@ -493,17 +493,43 @@ x = setInterval(function() {
       setTimeout(anim, 1500);
     }
 
-    var a=prompt("Enter UserName");
-    var b=prompt("Enter password");
-    if(a== "garima" && b=="dev")
-    {
-        window.location.href="birth.html";
-    }
-    else
-    {
-      alert("invalid details");
+
+
+    var a = prompt("Enter your First Name?");
+    var b = prompt("Where Did We First Meet?");
+    if(a == "Garima" && b =="Bhadrakali"){
+      window.location.href="birth.html";
+    }else if(a == "garima" && b =="bhadrakali"){
+      window.location.href="birth.html";
+    }else if(a == "Garima" && b =="bhadrakali"){
+      window.location.href="birth.html";
+    }else if(a == "garima" && b =="Bhadrakali"){
+      window.location.href="birth.html";
+    }else if(a == "garima" && b =="nepaltelevision"){
+      window.location.href="birth.html";
+    }else if(a == "garima" && b =="Nepaltelevision"){
+      window.location.href="birth.html";
+    }else if(a == "garima" && b =="nepal television"){
+      window.location.href="birth.html";
+    }else if(a == "garima" && b =="Nepal Television"){
+      window.location.href="birth.html";
+    }else if(a == "Garima" && b =="nepaltelevision"){
+      window.location.href="birth.html";
+    }else if(a == "Garima" && b =="Nepaltelevision"){
+      window.location.href="birth.html";
+    }else if(a == "Garima" && b =="nepal television"){
+      window.location.href="birth.html";
+    }else if(a == "Garima" && b =="Nepal Television"){
+      window.location.href="birth.html";
+    }else{
+      alert("जन्मदिवसस्य हार्दिक्य: शुभकामना:।।");
       init();
     }
+
+
+
+
   }
 
 }, second);
+
