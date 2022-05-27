@@ -1,10 +1,37 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	  <link rel="stylesheet" href="./flexbox-center-container.css" media="all">
+  <link rel="stylesheet" href="./system-fonts.css" media="all">
+  <link rel="stylesheet" href="./style.css" media="all">
+</head>
 <body>
-      	<video width="100%" height="100%" controls>
-		  <source src="birthdayVideos.mp4" type="video/mp4">
+	<div class="birth__">
+		<video height="100%"  controls>
+			<source src="birthdayVideos.mp4" type="video/mp4">
 		</video>
+	</div>
 </body>
-  </html>
+<script src="./confetti.min.js" charset="utf-8"></script>
+<script src="./index.js" charset="utf-8"></script>
+</html>
+
+<style>
+.birth__
+{
+	height:100%;
+	width:100%;
+	padding:50px;
+	/* position:relative; */
+}
+.birth__ video{
+	position:relative;
+	left:15px;
+	border-radius: 20px;
+	margin-right:15rem;
+	background:rgb(121, 240, 127);
+}
+</style>

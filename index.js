@@ -4,11 +4,8 @@ const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  // birthdate: 'July,8, 2022',
-  birthdate: 'May,15, 2022',
+  // birthdate: 'July,8, 2021',
   name: 'My Dear Garima'
-  birthdate: 'July,8, 2022',
-  name: 'Dear Garima'
 };
 
 
