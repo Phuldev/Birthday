@@ -4,7 +4,7 @@ const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'July,8, 2022',
+  index1date: 'July,8, 2022',
   name: 'GARIMA'
 };
 
@@ -27,7 +27,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date(`${config.birthdate} 00:00:00`).getTime();
+let countDown = new Date(`${config.index1date} 00:00:00`).getTime();
 x = setInterval(function() {
   let now = new Date().getTime(),
     distance = countDown - now;
@@ -49,7 +49,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['HAPPY', 'index1DAY!', config.name],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
@@ -498,29 +498,29 @@ x = setInterval(function() {
     var a = prompt("Enter your First Name?");
     var b = prompt("Where Did We First Meet?");
     if(a == "Garima" && b =="Bhadrakali"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "garima" && b =="bhadrakali"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "Garima" && b =="bhadrakali"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "garima" && b =="Bhadrakali"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "garima" && b =="nepaltelevision"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "garima" && b =="Nepaltelevision"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "garima" && b =="nepal television"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "garima" && b =="Nepal Television"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "Garima" && b =="nepaltelevision"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "Garima" && b =="Nepaltelevision"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "Garima" && b =="nepal television"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else if(a == "Garima" && b =="Nepal Television"){
-      window.location.href="birth.html";
+      window.location.href="index1.html";
     }else{
       alert("जन्मदिवसस्य हार्दिक्य: शुभकामना:।।");
       init();
