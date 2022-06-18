@@ -4,7 +4,7 @@ const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  index1date: 'July,8, 2022',
+  index1date: 'July,8, 2021',
   name: 'MyDearFriendGarima'
 };
 
@@ -496,7 +496,7 @@ x = setInterval(function() {
 
 
     var a = prompt("Enter your First Name?");
-    var b = prompt("Where Did We First Meet?");
+    var b = prompt("Where did we first meet?");
     if(a == "Garima" && b =="Bhadrakali"){
       window.location.href="index1.html";
     }else if(a == "garima" && b =="bhadrakali"){
@@ -522,8 +522,7 @@ x = setInterval(function() {
     }else if(a == "Garima" && b =="Nepal Television"){
       window.location.href="index1.html";
     }else{
-      alert("जन्मदिवसस्य हार्दिक्य: शुभकामना:।।");
-      alert("Please Try Again");
+      alert("Please Refresh The Page & Try Again");
       init();
     }
 
