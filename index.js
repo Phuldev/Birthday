@@ -4,8 +4,8 @@ const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  index1date: 'July,8, 2022',
-  name: 'GARIMA'
+  index1date: 'July,8, 2021',
+  name: 'MyDearFriendGarima'
 };
 
 
@@ -49,10 +49,10 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'index1DAY!', config.name],
-      charSize: 30,
-      charSpacing: 35,
-      lineHeight: 40,
+      strings: ['HAPPY', 'BIRTHDAY',config.name],
+      charSize:20,
+      charSpacing:20,
+      lineHeight:30,
       cx: w / 2,
       cy: h / 2,
 
@@ -523,6 +523,7 @@ x = setInterval(function() {
       window.location.href="index1.html";
     }else{
       alert("जन्मदिवसस्य हार्दिक्य: शुभकामना:।।");
+      alert("Please Try Again");
       init();
     }
 
