@@ -522,7 +522,7 @@ x = setInterval(function() {
     }else if(a == "Garima" && b =="Nepal Television"){
       window.location.href="index1.html";
     }else{
-      alert("Please Refresh The Page & Try Again");
+      alert("Please Refresh The Page & Try Again...");
       init();
     }
 
