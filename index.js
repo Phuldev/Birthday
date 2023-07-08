@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 const config = {
   index1date: 'July,8, 2024',
-  name: 'DearFriend'
+  name: 'MYDEARFRIENDGARIMA'
 };
 
 
