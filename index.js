@@ -4,7 +4,7 @@ const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  index1date: 'July,9, 2023',
+  index1date: 'July,8, 2024',
   name: 'MYDEARFRIENDGARIMA'
 };
 
