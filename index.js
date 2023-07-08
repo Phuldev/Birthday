@@ -4,8 +4,8 @@ const giftbox = document.getElementById('birtwrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  index1date: 'July,8, 2023',
-  name: 'MYDEARFRIENDGARIMA'
+  index1date: 'July,8, 2024',
+  name: 'DearFriend'
 };
 
 
@@ -492,43 +492,29 @@ x = setInterval(function() {
       canvasC.style.display = 'initial';
       setTimeout(anim, 1500);
     }
-
-
-
+    
     var a = prompt("Enter your First Name?");
     var b = prompt("Where did we first meet?");
-    if(a == "Garima" && b =="Bhadrakali"){
-      window.location.href="index1.html";
-    }else if(a == "garima" && b =="bhadrakali"){
-      window.location.href="index1.html";
-    }else if(a == "Garima" && b =="bhadrakali"){
-      window.location.href="index1.html";
-    }else if(a == "garima" && b =="Bhadrakali"){
-      window.location.href="index1.html";
-    }else if(a == "garima" && b =="nepaltelevision"){
-      window.location.href="index1.html";
+    if(a == "garima" && b =="nepaltelevision"){
+      window.location.href="design.html";
     }else if(a == "garima" && b =="Nepaltelevision"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else if(a == "garima" && b =="nepal television"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else if(a == "garima" && b =="Nepal Television"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else if(a == "Garima" && b =="nepaltelevision"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else if(a == "Garima" && b =="Nepaltelevision"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else if(a == "Garima" && b =="nepal television"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else if(a == "Garima" && b =="Nepal Television"){
-      window.location.href="index1.html";
+      window.location.href="design.html";
     }else{
       alert("Please Refresh The Page & Try Again...");
       init();
     }
-
-
-
-
   }
 
 }, second);

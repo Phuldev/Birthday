@@ -10,14 +10,14 @@ body{
     background-image:url(bday.gif);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 .hover-btn {
     position: relative;
     /* display: inline-block; */
-  }
-  
-  .dropdown-content {
+}  
+.dropdown-content {
     display: none;
     position: absolute;
     color:#000;
@@ -28,8 +28,7 @@ body{
     border-radius:10px;
     background-color:#fff;
     transition: 500ms linear;
-  }
-  
-  .hover-btn:hover .dropdown-content {
+}  
+.hover-btn:hover .dropdown-content {
     display: block;
-  }
+}
